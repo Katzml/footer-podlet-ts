@@ -16,48 +16,54 @@ const podlet = new Podlet({
 });
 
 //Middlewares
-
 app.use("/assets", express.static("public"));
 app.use(podlet.middleware());
 
 //Set podlet assets
-
 //@ts-ignore
-podlet.css({value:"/assets/footer.css"})
+podlet.css({value:"/assets/footer-bem.css"})
 
 //Routes
 app.get(podlet.content(), (req:Request, res:Response) => {
   res.status(200).podiumSend(`
-      <footer>
-      <section class ="foo-fragment">
-      <div class="sepa"></div>
+      <section class="category-footer">
+      <div class="category-footer__divider category-footer__divider--mobile"></div>
+      <section class ="category-footer__box">
       ${elements.map((
           element: {
             link: String;
             title: String;
             line: String;
-            items: { itemLink: String; name: String }[];
+            type: String;
+            itemClass: String;
+            items: { itemLink: String; name: String; type: String; }[];
           }) =>
-            `<section class="box" >
-            <ul>
-                <li class="item-title"><a href="${element.link}">${
+            `
+            <ul class="${element.type} category-footer__list--list">
+                <li class="category-footer__list__item--title">
+                <a class="category-footer__list__item__link--link category-footer__list__item__link--hover" href="${element.link}">${
               element.title
             }</a></li>
-                <div class="${element.line}"></div>
-                <div class="line-gray"></div>
-                ${element.items
-                  .map(
+                <div class="category-footer__list__line ${element.line}"></div>
+                <div class="category-footer__list__line--gray"></div>
+                ${element.items.map(
                     item =>
-                      `<li class="item"><a href="${item.itemLink}">${item.name}</a></li>`
+                      `
+                      <li class="category-footer__list__item">
+                      <a class="category-footer__list__item__link--link category-footer__list__item__link--hover" href="${item.itemLink}">
+                      ${item.name}<div class="${item.type}"></div>
+                      </a>
+                      </li>
+                     `
                   )
                   .join("")}
             </ul>
-        </section>`
+        `
         )
         .join("")}
-      <div class="sepa"></div>
       </section>
-      </footer>
+      <div class="category-footer__divider category-footer__divider--mobile"></div>
+      </section>
   `);
 });
 
@@ -66,7 +72,5 @@ app.get(podlet.manifest(), (req:Request, res:Response) => {
     res.status(200).send(podlet);
   });
 
-// example of a get route
-// app.get('/',(req:Request,res:Response)=>res.send('Hola mundillo'));
 
 app.listen(3001, () => console.info("🐱‍🏍 express with ts"));

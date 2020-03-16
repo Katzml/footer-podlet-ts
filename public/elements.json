@@ -1,134 +1,146 @@
 [
-    {
-      "title": "INMUEBLES",
-      "line": "line-orange",
-      "link":"",
-      "items": [
-        { "name": "Comprar", "itemLink": "" },
-        { "name": "Arrendar", "itemLink": "" },
-        { "name": "Arriendo de temporada", "itemLink": "" }
-      ]
-    },
-    {
-      "title": "VEHÍCULOS",
-      "line": "line-orange",
-      "link":"",
-      "items": [
-        { "name": "Autos, camionetas y 4x4", "itemLink": "" },
-        { "name": "Motos", "itemLink": "" },
-        { "name": "Buses, camiones y furgones", "itemLink": "" },
-        { "name": "Accesorios y piezas para vehículos", "itemLink": "" },
-        { "name": "Barcos, lanchas y aviones", "itemLink": "" },
-        { "name": "Otros vehículos", "itemLink": "" }
-      ]
-    },
-    {
-      "title": "HOGAR",
-      "line": "line-orange",
-      "link":"",
-      "items": [
-        { "name": "Muebles", "itemLink": "" },
-        { "name": "Electrodomésticos", "itemLink": "" },
-        { "name": "Jardín, herramientas y exteriores", "itemLink": "" },
-        { "name": "Otros artículos del hogar", "itemLink": "" }
-      ]
-    },
-    {
-      "title": "AYUDA",
-      "line": "line-blue",
-      "link":"",
-      "items": [
-        { "name": "Reglas", "itemLink": "" },
-        { "name": "Consejos de seguridad", "itemLink": "" },
-        { "name": "Cuenta de usuario", "itemLink": "" },
-        { "name": "Pago y despacho", "itemLink": "" },
-        { "name": "Potencia tu aviso", "itemLink": "" },
-        { "name": "Preguntas frecuentes", "itemLink": "" }
-      ]
-    },
-    {
-      "title": "MODA, CALZADO, BELLEZA Y SALUD",
-      "line": "line-orange",
-      "link":"",
-      "items": [
-        { "name": "Moda y vestuario", "itemLink": "" },
-        { "name": "Bolsos, bisutería y accesorios", "itemLink": "" },
-        { "name": "Salud y belleza", "itemLink": "" },
-        { "name": "Calzado", "itemLink": "" }
-      ]
-    },
-    {
-      "title": "FUTURA MAMÁ, BEBÉS Y NIÑOS",
-      "line": "line-orange",
-      "link":"",
-      "items": [
-        { "name": "Vestuario futura mamá y niños", "itemLink": "" },
-        { "name": "Juguetes", "itemLink": "" },
-        { "name": "Coches y artículos infantiles", "itemLink": "" }
-      ]
-    },
-    {
-      "title": "COMPUTADORES & ELECTRÓNICA",
-      "line": "line-orange",
-      "link":"",
-      "items": [
-        { "name": "Computadores y accesorios", "itemLink": "" },
-        { "name": "Celulares, teléfonos y accesorios", "itemLink": "" },
-        { "name": "Consolas, videojugeos y accesorios", "itemLink": "" },
-        { "name": "Audio, TV, video y fotografía", "itemLink": "" }
-      ]
-    },
-    {
-      "title": "INFORMACIÓN ÚTIL",
-      "line": "line-blue",
-      "link":"",
-      "items": [
-        { "name": "Términos y condiciones", "itemLink": "" },
-        { "name": "Políticas de privacidad", "itemLink": "" },
-        { "name": "Acerca de Yapo.cl", "itemLink": "" },
-        { "name": "Trabaja con nosotros", "itemLink": "" },
-        { "name": "Versión móvil", "itemLink": "" }
-      ]
-    },
-    {
-      "title": "TIEMPO LIBRE",
-      "line": "line-orange",
-      "link":"",
-      "items": [
-        { "name": "Animales y sus accesorios", "itemLink": "" },
-        { "name": "Deporte, gimnasia y accesorios", "itemLink": "" },
-        { "name": "Bicicletas, ciclismo y accesorios", "itemLink": "" },
-        { "name": "Hobbies y outdoor", "itemLink": "" },
-        { "name": "Instrumentos musicales y accesorios", "itemLink": "" },
-        { "name": "Música y películas (DVDs, etc.)", "itemLink": "" },
-        { "name": "Libros y revistas", "itemLink": "" },
-        { "name": "Arte, antigüedades y colecciones", "itemLink": "" }
-      ]
-    },
-    {
-      "title": "SERVICIOS, NEGOCIOS Y EMPLEO",
-      "line": "line-orange",
-      "link":"",
-      "items": [
-        { "name": "Ofertas de empleo", "itemLink": "" },
-        { "name": "Busco empleo", "itemLink": "" },
-        { "name": "Servicios", "itemLink": "" },
-        { "name": "Negocios, maquinaria y construcción", "itemLink": "" }
-      ]
-    },
-    {
-      "title": "OTROS",
-      "line": "line-orange",
-      "link":"",
-      "items": [{ "name": "Otros productos", "itemLink": "" }]
-    },
-    {
-      "title": "DESCARGA LA APP",
-      "line": "line-blue",
-      "link":"",
-      "items": [
-        { "name": "playstore", "itemLink": "" },
-        { "name": "appstore", "itemLink": "" }
-      ]
-    }
-  ]
+  {
+    "title": "INMUEBLES",
+    "line": "category-footer__list__line--orange",
+    "link": "",
+    "type": "category-footer__list--mobile ",
+    "items": [
+      { "name": "Comprar", "itemLink": "" },
+      { "name": "Arrendar", "itemLink": "" },
+      { "name": "Arriendo de temporada", "itemLink": "" }
+    ]
+  },
+  {
+    "title": "VEHÍCULOS",
+    "line": "category-footer__list__line--orange",
+    "link": "",
+    "type": "category-footer__list--mobile ",
+    "items": [
+      { "name": "Autos, camionetas y 4x4", "itemLink": "" },
+      { "name": "Motos", "itemLink": "" },
+      { "name": "Buses, camiones y furgones", "itemLink": "" },
+      { "name": "Accesorios y piezas para vehículos", "itemLink": "" },
+      { "name": "Barcos, lanchas y aviones", "itemLink": "" },
+      { "name": "Otros vehículos", "itemLink": "" }
+    ]
+  },
+  {
+    "title": "HOGAR",
+    "line": "category-footer__list__line--orange",
+    "link": "",
+    "type": "category-footer__list--desktop ",
+    "items": [
+      { "name": "Muebles", "itemLink": "" },
+      { "name": "Electrodomésticos", "itemLink": "" },
+      { "name": "Jardín, herramientas y exteriores", "itemLink": "" },
+      { "name": "Otros artículos del hogar", "itemLink": "" }
+    ]
+  },
+  {
+    "title": "AYUDA",
+    "line": "category-footer__list__line--blue",
+    "link": "",
+    "type": "category-footer__list--mobile ",
+    "items": [
+      { "name": "Reglas", "itemLink": "" },
+      { "name": "Consejos de seguridad", "itemLink": "" },
+      { "name": "Cuenta de usuario", "itemLink": "" },
+      { "name": "Pago y despacho", "itemLink": "" },
+      { "name": "Potencia tu aviso", "itemLink": "" },
+      { "name": "Preguntas frecuentes", "itemLink": "" }
+    ]
+  },
+  {
+    "title": "MODA, CALZADO, BELLEZA Y SALUD",
+    "line": "category-footer__list__line--orange",
+    "link": "",
+    "type": "category-footer__list--mobile ",
+    "items": [
+      { "name": "Moda y vestuario", "itemLink": "" },
+      { "name": "Bolsos, bisutería y accesorios", "itemLink": "" },
+      { "name": "Salud y belleza", "itemLink": "" },
+      { "name": "Calzado", "itemLink": "" }
+    ]
+  },
+  {
+    "title": "FUTURA MAMÁ, BEBÉS Y NIÑOS",
+    "line": "category-footer__list__line--orange",
+    "link": "",
+    "type": "category-footer__list--desktop ",
+    "items": [
+      { "name": "Vestuario futura mamá y niños", "itemLink": "" },
+      { "name": "Juguetes", "itemLink": "" },
+      { "name": "Coches y artículos infantiles", "itemLink": "" }
+    ]
+  },
+  {
+    "title": "COMPUTADORES & ELECTRÓNICA",
+    "line": "category-footer__list__line--orange",
+    "link": "",
+    "type": "category-footer__list--desktop ",
+    "items": [
+      { "name": "Computadores y accesorios", "itemLink": "" },
+      { "name": "Celulares, teléfonos y accesorios", "itemLink": "" },
+      { "name": "Consolas, videojugeos y accesorios", "itemLink": "" },
+      { "name": "Audio, TV, video y fotografía", "itemLink": "" }
+    ]
+  },
+  {
+    "title": "INFORMACIÓN ÚTIL",
+    "line": "category-footer__list__line--blue",
+    "link": "",
+    "type": "category-footer__list--desktop ",
+    "items": [
+      { "name": "Términos y condiciones", "itemLink": "" },
+      { "name": "Políticas de privacidad", "itemLink": "" },
+      { "name": "Acerca de Yapo.cl", "itemLink": "" },
+      { "name": "Trabaja con nosotros", "itemLink": "" },
+      { "name": "Versión móvil", "itemLink": "" }
+    ]
+  },
+  {
+    "title": "TIEMPO LIBRE",
+    "line": "category-footer__list__line--orange",
+    "link": "",
+    "type": "category-footer__list--desktop ",
+    "items": [
+      { "name": "Animales y sus accesorios", "itemLink": "" },
+      { "name": "Deporte, gimnasia y accesorios", "itemLink": "" },
+      { "name": "Bicicletas, ciclismo y accesorios", "itemLink": "" },
+      { "name": "Hobbies y outdoor", "itemLink": "" },
+      { "name": "Instrumentos musicales y accesorios", "itemLink": "" },
+      { "name": "Música y películas (DVDs, etc.)", "itemLink": "" },
+      { "name": "Libros y revistas", "itemLink": "" },
+      { "name": "Arte, antigüedades y colecciones", "itemLink": "" }
+    ]
+  },
+  {
+    "title": "SERVICIOS, NEGOCIOS Y EMPLEO",
+    "line": "category-footer__list__line--orange",
+    "link": "",
+    "type": "category-footer__list--desktop ",
+    "items": [
+      { "name": "Ofertas de empleo", "itemLink": "" },
+      { "name": "Busco empleo", "itemLink": "" },
+      { "name": "Servicios", "itemLink": "" },
+      { "name": "Negocios, maquinaria y construcción", "itemLink": "" }
+    ]
+  },
+  {
+    "title": "OTROS",
+    "line": "category-footer__list__line--orange",
+    "link": "",
+    "type": "category-footer__list--desktop ",
+    "items": [{ "name": "Otros productos", "itemLink": "" }]
+  },
+  {
+    "title": "DESCARGA LA APP",
+    "line": "category-footer__list__line--blue",
+    "link": "",
+    "type": "category-footer__list--mobile ",
+    "items": [
+      {"name": "","itemLink": "","type": "category-footer__list__item__link__image--playstore"},
+      {"name": "","itemLink": "","type": "category-footer__list__item__link__image--appstore"}
+    ]
+  }
+]
