@@ -16,14 +16,17 @@ const podlet = new Podlet({
 });
 
 //Middlewares
+
 app.use("/assets", express.static("public"));
 app.use(podlet.middleware());
 
 //Set podlet assets
-// podlet.css({})
-//Routes
 
-app.get(podlet.content(), (req, res) => {
+//@ts-ignore
+podlet.css({value:"/assets/footer.css"})
+
+//Routes
+app.get(podlet.content(), (req:Request, res:Response) => {
   res.status(200).podiumSend(`
       <footer>
       <section class ="foo-fragment">
@@ -59,11 +62,11 @@ app.get(podlet.content(), (req, res) => {
 });
 
 //Send manifest
-app.get(podlet.manifest(), (req, res) => {
+app.get(podlet.manifest(), (req:Request, res:Response) => {
     res.status(200).send(podlet);
   });
 
 // example of a get route
 // app.get('/',(req:Request,res:Response)=>res.send('Hola mundillo'));
 
-app.listen(3000, () => console.info("🐱‍🏍 express with ts"));
+app.listen(3001, () => console.info("🐱‍🏍 express with ts"));
