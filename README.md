@@ -22,4 +22,4 @@ You must build the index.ts file with "build" command before run the start comma
 this command execute the index.js file on the build folder
 
 
-### NOTE: You will define your own env variables for the PORT of server
+### NOTE: You will define your own env variables for server's port
