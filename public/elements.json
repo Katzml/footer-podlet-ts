@@ -1,9 +1,9 @@
 [
   {
     "title": "INMUEBLES",
-    "line": "category-footer__list__line--orange",
+    "line": "category-footer-list__line--orange",
     "link": "",
-    "type": "category-footer__list--mobile ",
+    "type": "category-footer-list--mobile ",
     "items": [
       { "name": "Comprar", "itemLink": "" },
       { "name": "Arrendar", "itemLink": "" },
@@ -12,9 +12,9 @@
   },
   {
     "title": "VEHÍCULOS",
-    "line": "category-footer__list__line--orange",
+    "line": "category-footer-list__line--orange",
     "link": "",
-    "type": "category-footer__list--mobile ",
+    "type": "category-footer-list--mobile ",
     "items": [
       { "name": "Autos, camionetas y 4x4", "itemLink": "" },
       { "name": "Motos", "itemLink": "" },
@@ -26,9 +26,9 @@
   },
   {
     "title": "HOGAR",
-    "line": "category-footer__list__line--orange",
+    "line": "category-footer-list__line--orange",
     "link": "",
-    "type": "category-footer__list--desktop ",
+    "type": "category-footer-list--desktop ",
     "items": [
       { "name": "Muebles", "itemLink": "" },
       { "name": "Electrodomésticos", "itemLink": "" },
@@ -38,9 +38,9 @@
   },
   {
     "title": "AYUDA",
-    "line": "category-footer__list__line--blue",
+    "line": "category-footer-list__line--blue",
     "link": "",
-    "type": "category-footer__list--mobile ",
+    "type": "category-footer-list--mobile ",
     "items": [
       { "name": "Reglas", "itemLink": "" },
       { "name": "Consejos de seguridad", "itemLink": "" },
@@ -52,9 +52,9 @@
   },
   {
     "title": "MODA, CALZADO, BELLEZA Y SALUD",
-    "line": "category-footer__list__line--orange",
+    "line": "category-footer-list__line--orange",
     "link": "",
-    "type": "category-footer__list--mobile ",
+    "type": "category-footer-list--mobile ",
     "items": [
       { "name": "Moda y vestuario", "itemLink": "" },
       { "name": "Bolsos, bisutería y accesorios", "itemLink": "" },
@@ -64,9 +64,9 @@
   },
   {
     "title": "FUTURA MAMÁ, BEBÉS Y NIÑOS",
-    "line": "category-footer__list__line--orange",
+    "line": "category-footer-list__line--orange",
     "link": "",
-    "type": "category-footer__list--desktop ",
+    "type": "category-footer-list--desktop ",
     "items": [
       { "name": "Vestuario futura mamá y niños", "itemLink": "" },
       { "name": "Juguetes", "itemLink": "" },
@@ -75,9 +75,9 @@
   },
   {
     "title": "COMPUTADORES & ELECTRÓNICA",
-    "line": "category-footer__list__line--orange",
+    "line": "category-footer-list__line--orange",
     "link": "",
-    "type": "category-footer__list--desktop ",
+    "type": "category-footer-list--desktop ",
     "items": [
       { "name": "Computadores y accesorios", "itemLink": "" },
       { "name": "Celulares, teléfonos y accesorios", "itemLink": "" },
@@ -87,9 +87,9 @@
   },
   {
     "title": "INFORMACIÓN ÚTIL",
-    "line": "category-footer__list__line--blue",
+    "line": "category-footer-list__line--blue",
     "link": "",
-    "type": "category-footer__list--desktop ",
+    "type": "category-footer-list--desktop ",
     "items": [
       { "name": "Términos y condiciones", "itemLink": "" },
       { "name": "Políticas de privacidad", "itemLink": "" },
@@ -100,9 +100,9 @@
   },
   {
     "title": "TIEMPO LIBRE",
-    "line": "category-footer__list__line--orange",
+    "line": "category-footer-list__line--orange",
     "link": "",
-    "type": "category-footer__list--desktop ",
+    "type": "category-footer-list--desktop ",
     "items": [
       { "name": "Animales y sus accesorios", "itemLink": "" },
       { "name": "Deporte, gimnasia y accesorios", "itemLink": "" },
@@ -116,9 +116,9 @@
   },
   {
     "title": "SERVICIOS, NEGOCIOS Y EMPLEO",
-    "line": "category-footer__list__line--orange",
+    "line": "category-footer-list__line--orange",
     "link": "",
-    "type": "category-footer__list--desktop ",
+    "type": "category-footer-list--desktop ",
     "items": [
       { "name": "Ofertas de empleo", "itemLink": "" },
       { "name": "Busco empleo", "itemLink": "" },
@@ -128,19 +128,19 @@
   },
   {
     "title": "OTROS",
-    "line": "category-footer__list__line--orange",
+    "line": "category-footer-list__line--orange",
     "link": "",
-    "type": "category-footer__list--desktop ",
+    "type": "category-footer-list--desktop ",
     "items": [{ "name": "Otros productos", "itemLink": "" }]
   },
   {
     "title": "DESCARGA LA APP",
-    "line": "category-footer__list__line--blue",
+    "line": "category-footer-list__line--blue",
     "link": "",
-    "type": "category-footer__list--mobile ",
+    "type": "category-footer-list--mobile ",
     "items": [
-      {"name": "","itemLink": "","type": "category-footer__list__item__link__image--playstore"},
-      {"name": "","itemLink": "","type": "category-footer__list__item__link__image--appstore"}
+      {"name": "","itemLink": "","type": "category-footer-list__link--playstore"},
+      {"name": "","itemLink": "","type": "category-footer-list__link--appstore"}
     ]
   }
 ]

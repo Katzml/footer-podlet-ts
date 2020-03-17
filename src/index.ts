@@ -27,7 +27,7 @@ podlet.css({value:"/assets/footer-bem.css"})
 app.get(podlet.content(), (req:Request, res:Response) => {
   res.status(200).podiumSend(`
       <section class="category-footer">
-      <div class="category-footer__divider category-footer__divider--mobile"></div>
+      <div class="category-footer__divider category-footer__divider--responsive"></div>
       <section class ="category-footer__box">
       ${elements.map((
           element: {
@@ -39,18 +39,18 @@ app.get(podlet.content(), (req:Request, res:Response) => {
             items: { itemLink: String; name: String; type: String; }[];
           }) =>
             `
-            <ul class="${element.type} category-footer__list--list">
-                <li class="category-footer__list__item--title">
-                <a class="category-footer__list__item__link--link category-footer__list__item__link--hover" href="${element.link}">${
+            <ul class="${element.type} category-footer-list">
+                <li class="category-footer-list__item category-footer-list__item--title">
+                <a class="category-footer-list__link--link" href="${element.link}">${
               element.title
             }</a></li>
-                <div class="category-footer__list__line ${element.line}"></div>
-                <div class="category-footer__list__line--gray"></div>
+                <div class="category-footer-list__line ${element.line}"></div>
+                <div class="category-footer-list__line category-footer-list__line--gray"></div>
                 ${element.items.map(
                     item =>
                       `
-                      <li class="category-footer__list__item">
-                      <a class="category-footer__list__item__link--link category-footer__list__item__link--hover" href="${item.itemLink}">
+                      <li class="category-footer-list__item">
+                      <a class="category-footer-list__link--link category-footer-list__link--hover" href="${item.itemLink}">
                       ${item.name}<div class="${item.type}"></div>
                       </a>
                       </li>
@@ -62,7 +62,7 @@ app.get(podlet.content(), (req:Request, res:Response) => {
         )
         .join("")}
       </section>
-      <div class="category-footer__divider category-footer__divider--mobile"></div>
+      <div class="category-footer__divider category-footer__divider--responsive"></div>
       </section>
   `);
 });
