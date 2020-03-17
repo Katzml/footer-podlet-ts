@@ -1,5 +1,6 @@
 # A simple podium's podlet on Express TypeScript server
 
+
 ## Run on dev server with
 ```
 npm run dev
@@ -19,3 +20,6 @@ npm start
 ```
 You must build the index.ts file with "build" command before run the start command, 
 this command execute the index.js file on the build folder
+
+
+### NOTE: You will define your own env variables for the PORT of server
