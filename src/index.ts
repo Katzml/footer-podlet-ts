@@ -73,4 +73,4 @@ app.get(podlet.manifest(), (req:Request, res:Response) => {
   });
 
 
-app.listen(3001, () => console.info("🐱‍🏍 express with ts"));
+app.listen(process.env.PORT, () => console.info("🐱‍🏍 footer-podlet on express with TS"));
