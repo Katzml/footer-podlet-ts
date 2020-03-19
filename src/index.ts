@@ -21,7 +21,7 @@ app.use(podlet.middleware());
 
 //Set podlet assets
 //@ts-ignore
-podlet.css({value:"/assets/footer-bem.css"})
+podlet.css({value:"/assets/footer-bem.css"});
 
 //Routes
 app.get(podlet.content(), (req:Request, res:Response) => {
@@ -36,7 +36,7 @@ app.get(podlet.content(), (req:Request, res:Response) => {
             line: String;
             type: String;
             itemClass: String;
-            items: { itemLink: String; name: String; type: String; }[];
+            items: { itemLink: String; name: String; img: String; }[];
           }) =>
             `
             <ul class="${element.type} category-footer-list">
@@ -51,7 +51,7 @@ app.get(podlet.content(), (req:Request, res:Response) => {
                       `
                       <li class="category-footer-list__item">
                       <a class="category-footer-list__link--link category-footer-list__link--hover" href="${item.itemLink}">
-                      ${item.name}<div class="${item.type}"></div>
+                      ${item.name}<div class="${item.img}"></div>
                       </a>
                       </li>
                      `
@@ -73,4 +73,4 @@ app.get(podlet.manifest(), (req:Request, res:Response) => {
   });
 
 
-app.listen(process.env.PORT, () => console.info("🐱‍🏍 footer-podlet on express with TS"));
+app.listen(process.env.PORT, () => console.info(`🐱‍🏍 footer-podlet on express with TS on ${process.env.PORT}`));
