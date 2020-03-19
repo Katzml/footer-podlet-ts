@@ -139,8 +139,8 @@
     "link": "",
     "type": "category-footer-list--mobile ",
     "items": [
-      {"name": "","itemLink": "","type": "category-footer-list__link--playstore"},
-      {"name": "","itemLink": "","type": "category-footer-list__link--appstore"}
+      {"name": "","itemLink": "","img": "category-footer-list__link--playstore"},
+      {"name": "","itemLink": "","img": "category-footer-list__link--appstore"}
     ]
   }
 ]
